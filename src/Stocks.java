@@ -8,7 +8,7 @@ public class Stocks{
         int profit=0;
         for(int i=1;i<a.length;i++){
             if(a[i]<buy) {
-                profit +=( a[i - 1] - buy);
+                profit+=( a[i - 1] - buy);
                 if(i!=a.length-1){
                     buy=a[i];
                 }
